@@ -8,6 +8,7 @@ A key step in FISH is designing DNA probes that hybridize efficiently to target 
 
 RNA FISH Diagram: ![image](https://github.com/user-attachments/assets/3b5e6fd7-581b-4684-9743-e4da06bd9b89)
 
+This image illustrates the steps of RNA Fluorescence In Situ Hybridization (RNA FISH): first, designing complementary unlabeled oligonucleotide probes to target RNA; second, labeling these probes with fluorescent dyes (e.g., ddUTP-dye) to enable visualization; and third, hybridizing the fluorescently labeled probes to the target RNA within a fixed sample. The bound probes emit fluorescence (orange stars in the diagram), allowing the localization and abundance of the target RNA to be visualized under a fluorescence microscope.
 
 ## Objectives
 
