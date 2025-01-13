@@ -6,7 +6,7 @@ Fluorescence in situ hybridization (FISH) is a molecular cytogenetic technique u
 
 A key step in FISH is designing DNA probes that hybridize efficiently to target sequences. This process requires careful consideration of probe length, G/C content, melting temperature, and specificity to avoid off-target binding. Manual probe design is labor-intensive and prone to errors, necessitating an automated solution. This project proposes the development of a Python-based tool to automate the probe design process, streamlining workflows for researchers utilizing FISH technologies.
 
-[RNA FISH Diagram]![image](https://github.com/user-attachments/assets/3b5e6fd7-581b-4684-9743-e4da06bd9b89)
+![RNA FISH Diagram][image](https://github.com/user-attachments/assets/3b5e6fd7-581b-4684-9743-e4da06bd9b89)
 
 
 ## Objectives
