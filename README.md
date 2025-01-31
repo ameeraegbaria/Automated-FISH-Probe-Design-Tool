@@ -106,9 +106,22 @@ If you don’t have Python installed:
 
 ---
 
-### **Step 2: Install Required Libraries**
+### **Step 2: Download the Script and Install Required Libraries**
+1. Download the script file `fish_probe_gui_Ameera.py` from the GitHub repository:
+   [Download Here](https://github.com/ameeraegbaria/Automated-FISH-Probe-Design-Tool/blob/main/fish_probe_gui_Ameera.py)
+2. Save the script in a folder where you can easily access it (e.g., `Desktop` or `Downloads`).
+
+3. Open **Command Prompt** (Windows) or **Terminal** (Mac/Linux).
+4. Navigate to the folder where you downloaded the project (e.g., `Downloads`, `Desktop`):
+   ```bash
+   cd path/to/project/folder
+   ```
+5. Install the necessary Python libraries:
+   ```bash
+   pip install biopython pandas numpy
+   ```
 1. Open **Command Prompt** (Windows) or **Terminal** (Mac/Linux).
-2. Navigate to the folder where you downloaded the project (e.g., `Downloads`, `Desktop`):
+2. Navigate to the folder where you downloaded the script file `fish_probe_gui_Ameera.py` (e.g., `Downloads`, `Desktop`), like:
    ```bash
    cd path/to/project/folder
    ```
