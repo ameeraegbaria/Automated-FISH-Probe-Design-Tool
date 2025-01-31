@@ -91,3 +91,63 @@ The tool will generate:
 ## Conclusion
 
 The proposed Python-based tool aims to revolutionize the FISH probe design process by automating the generation of optimized probes tailored to either default or user-specified requirements. By combining efficiency, accuracy, and ease of use, this tool will address critical challenges faced by researchers and enhance the reliability of FISH experiments. This project will serve as a practical application of Python programming in the field of molecular biology and bioinformatics.
+
+## How to Install and Run the FISH Probe Design Tool (Beginner-Friendly Guide)
+
+### **Step 1: Install Python**
+If you don’t have Python installed:
+1. Download Python 3.x from the official website: [https://www.python.org/downloads/](https://www.python.org/downloads/)
+2. Run the installer and **check the box** that says **"Add Python to PATH"** before installing.
+3. Verify installation by opening a **Command Prompt** (Windows) or **Terminal** (Mac/Linux) and typing:
+   ```bash
+   python --version
+   ```
+   If Python is installed correctly, it will show something like `Python 3.x.x`.
+
+---
+
+### **Step 2: Install Required Libraries**
+1. Open **Command Prompt** (Windows) or **Terminal** (Mac/Linux).
+2. Navigate to the folder where you downloaded the project (e.g., `Downloads`, `Desktop`):
+   ```bash
+   cd path/to/project/folder
+   ```
+3. Install the necessary Python libraries:
+   ```bash
+   pip install biopython pandas numpy
+   ```
+
+---
+
+### **Step 3: Run the Tool**
+1. Inside the **Command Prompt** or **Terminal**, navigate to the folder containing the script.
+2. Run the script by typing:
+   ```bash
+   python fish_probe_gui_Ameera.py
+   ```
+3. A **Graphical User Interface (GUI)** will open where you can input your DNA sequence and set parameters.
+
+---
+
+### **Step 4: Generate and Save Probes**
+1. Enter your **DNA sequence** in the provided text box.
+2. (Optional) Adjust probe parameters such as:
+   - **Probe Length**
+   - **GC Content Range**
+   - **Melting Temperature Range**
+   - **Overlap Length**
+3. Click **"Generate Probes"** to create the probe sequences.
+4. To **save the output**:
+   - Click **"Save as CSV"** to store the results as a CSV file.
+   - Click **"Save as FASTA"** to save the results in FASTA format.
+5. Choose a folder and filename when the **file dialog** appears.
+6. The file will be saved in the selected location.
+
+---
+
+### **Step 5: Open and Use the Output Files**
+- **CSV File**: Open in **Excel** or a text editor to view probe details.
+- **FASTA File**: Used for bioinformatics applications and can be opened in a sequence viewer.
+
+---
+
