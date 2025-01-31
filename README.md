@@ -50,7 +50,6 @@ The proposed Python tool will process an input DNA sequence to generate a set of
 - **Biopython:** For sequence manipulation.
 - **Pandas:** For efficient data handling.
 - **NumPy:** For computational analysis of melting temperatures and G/C content.
-- **Matplotlib (optional):** For graphical visualization.
 
 ### System Requirements:
 - Python 3.x installed on the user’s system.
